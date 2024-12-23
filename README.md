@@ -1,4 +1,4 @@
-# UAS Pemrograman Web RA | Ashoka Tatang Solihin_122140051
+# UAS Pemrograman Web RB | Ashoka Tatang Solihin_122140051
 
 ## Poin penilaian
 - Client-side Programming
