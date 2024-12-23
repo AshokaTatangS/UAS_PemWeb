@@ -68,3 +68,79 @@ lalu terdapat pengolaan session:
 
 
 ## Bonus: Hosting Aplikasi
+### Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda?
+1. Registrasi Akun
+
+  Daftar akun di InfinityFree menggunakan email yang valid.
+
+
+2. Pembuatan Domain
+
+  Pilih domain gratis yang disediakan oleh InfinityFree (misalnya, example.epizy.com) atau gunakan domain Anda sendiri.
+
+
+3. Upload File ke Server
+
+  Akses File Manager atau gunakan FTP Client (seperti FileZilla) untuk mengunggah file aplikasi web ke direktori htdocs.
+
+4. Konfigurasi Database
+
+  Buat database MySQL melalui cPanel InfinityFree di bagian MySQL Databases.
+
+  Perbarui file konfigurasi aplikasi (misalnya, connect.php) dengan kredensial database yang telah dibuat.
+
+5. Tes Aplikasi
+
+  Akses domain yang telah dibuat untuk memastikan aplikasi berjalan sesuai harapan.
+
+### Penyedia hosting web yang paling cocok untuk aplikasi web Anda
+Saya memilih InfinityFree sebagai penyedia hosting karena:
+
+1. Gratis Selamanya
+
+  Cocok untuk proyek kecil atau portofolio tanpa biaya tambahan.
+
+2. Fitur Hosting Gratis
+
+  Mendukung PHP, MySQL, dan memiliki penyimpanan yang cukup besar (hingga 5GB).
+
+3. Tanpa Iklan
+
+  Tidak ada iklan yang mengganggu di situs yang di-host.
+
+4. Subdomain Gratis
+
+  Tersedia subdomain gratis seperti .epizy.com atau .rf.gd.
+
+Namun, jika aplikasi membutuhkan fitur lebih lengkap seperti sertifikat SSL premium, performa tinggi, atau dukungan pelanggan, hosting berbayar seperti Hostinger atau Bluehost bisa dipertimbangkan.
+
+### Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?
+1. SSL/TLS
+
+Aktifkan Free SSL Certificate yang disediakan oleh InfinityFree untuk mengenkripsi data antara server dan klien.
+
+2. Validasi Input
+
+Pastikan semua input dari pengguna divalidasi untuk mencegah serangan seperti SQL Injection dan XSS (Cross-Site Scripting).
+
+3. Perbarui Skrip dan Library
+
+Pastikan semua skrip dan library yang digunakan dalam aplikasi selalu diperbarui untuk menutup celah keamanan.
+
+4. Gunakan Password Kuat
+
+Terapkan password yang kuat untuk akun hosting, database, dan aplikasi.
+
+###  Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.
+1. PHP Version
+
+Pastikan server mendukung versi PHP yang sesuai dengan aplikasi. InfinityFree mendukung hingga PHP 7.4.
+
+2. Konfigurasi MySQL
+
+Gunakan database MySQL yang dibuat di cPanel InfinityFree.
+Periksa koneksi database dengan kredensial yang benar (hostname, username, password, dan nama database).
+
+3. File Directory
+
+Semua file aplikasi web harus ditempatkan di direktori htdocs.
